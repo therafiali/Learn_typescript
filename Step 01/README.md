@@ -46,7 +46,8 @@ x = 'Alex';  // Cannot be reassigned because 'const' is constant.
 // Variable Types in TypeScript
 // In TypeScript, you can explicitly specify the data type of a variable when declaring it:
 
-let a: string = 'apple';  
+let a: string = 'apple';
 let x: number = 2;
 let isValid: boolean = true;
 let y: boolean = false;
+```
