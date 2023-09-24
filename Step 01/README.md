@@ -17,15 +17,15 @@ For example:
 
 ```javascript
 usa = 'United States of America';
-let nam = 'Raja';
+let name = 'Raja';
 _age = 17;
 &gender = 'male';
-nam = 'Ali';
+name = 'Ali';
 
 
 
-Using Variables in JavaScript
-The keyword "let" in JavaScript is used to declare a variable that is block-scoped. In JavaScript, the var keyword is typically used to declare a variable that is treated like any other variable, whereas variables declared using let in JavaScript are block-scoped.
+//Using Variables in JavaScript
+// The keyword "let" in JavaScript is used to declare a variable that is block-scoped. In JavaScript, the var keyword is typically used to declare a variable that is treated like any other variable, whereas variables declared using let in JavaScript are block-scoped.
 
 For example:
 
@@ -34,8 +34,8 @@ let r = 'Raja';   // Single quotes also allowed
 r = 'Rafi';       // Reassigning allowed with 'let'
 
 
-Constants with "const"
-The "const" declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+// Constants with "const"
+// The "const" declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
 
 For example:
 const usa = 'United States Of America';
@@ -43,8 +43,8 @@ const x = 'John'; // Single or double quotes also allowed.
 
 x = 'Alex';  // Cannot be reassigned because 'const' is constant.
 
-Variable Types in TypeScript
-In TypeScript, you can explicitly specify the data type of a variable when declaring it:
+// Variable Types in TypeScript
+// In TypeScript, you can explicitly specify the data type of a variable when declaring it:
 
 let a: string = 'apple';  
 let x: number = 2;
