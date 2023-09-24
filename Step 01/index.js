@@ -1,0 +1,9 @@
+var a = "apple"; //double quotes allowed
+var r = 'Raja'; //single also quotes allowed
+r = "Rafi"; // reassigning allowed in let 
+// let usa = "united states of america"
+// usa = 'Canada'
+var usa = "united states of america";
+// usa = "canada"
+var userName = "rafi";
+userName = 54;
